@@ -1,0 +1,28 @@
+Работа с git:
+1. проходим в командной строке до нужной папки.
+    через команду cd
+    
+2. как только дошли, делаем команду git init
+3. делаем условную авторизацию:
+    git config --global user.name "Abay Aslaleev"
+    git config --global user.email aslaleev@mail.ru
+4. узнаем текущий статус git:
+    git status
+    
+5. говорим что хотим добавить в git:
+    git add .
+    
+6. снова узнаем статус git
+    git status
+    
+7. комитим
+    git commit -m "добавляешь сюда конкретный комент"
+8. Либо создаем новый репозиторий в github, либо в имеющийся добавляем наши файлы
+    git remote add origin https://
+    
+    
+    9. Пушим узменения
+    git push -u origin master
+ 
+ 
+https://git-scm.com/downloads
